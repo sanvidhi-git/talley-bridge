@@ -1,0 +1,137 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "content": "[{\"id\":\"shortcuts\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tally Connection Settings\",\"col\":3}},{\"id\":\"doctypes\",\"type\":\"card\",\"data\":{\"card_name\":\"Tally Bridge\",\"col\":4}}]",
+ "custom_blocks": [],
+ "doctype": "Workspace",
+ "extends": "",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "octicon octicon-sync",
+ "is_default": 1,
+ "is_hidden": 0,
+ "label": "Tally Bridge",
+ "module": "tally_bridge",
+ "name": "Tally Bridge",
+ "onboarding": "",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 900,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "doctype": "",
+   "format": "",
+   "icon": "octicon octicon-settings",
+   "label": "Tally Connection Settings",
+   "link_to": "Tally Connection Settings",
+   "name": "Tally Connection Settings",
+   "restrict_to_domain": "",
+   "type": "DocType",
+   "url": ""
+  },
+  {
+   "color": "Green",
+   "doc_view": "",
+   "doctype": "",
+   "format": "",
+   "icon": "octicon octicon-list-unordered",
+   "label": "Tally Sync Queue",
+   "link_to": "Tally Sync Queue",
+   "name": "Tally Sync Queue",
+   "restrict_to_domain": "",
+   "type": "DocType",
+   "url": ""
+  },
+  {
+   "color": "Grey",
+   "doc_view": "",
+   "doctype": "",
+   "format": "",
+   "icon": "octicon octicon-book",
+   "label": "Tally Sync Log",
+   "link_to": "Tally Sync Log",
+   "name": "Tally Sync Log",
+   "restrict_to_domain": "",
+   "type": "DocType",
+   "url": ""
+  },
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "doctype": "",
+   "format": "",
+   "icon": "octicon octicon-terminal",
+   "label": "Console",
+   "link_to": "tally-bridge-console",
+   "name": "Tally Bridge Console",
+   "restrict_to_domain": "",
+   "type": "Page",
+   "url": ""
+  }
+ ],
+ "cards": [
+  {
+   "card_name": "Tally Bridge",
+   "document_type": "",
+   "label": "Tally Bridge",
+   "links": [
+    {
+     "description": "Connection and sync settings",
+     "label": "Tally Connection Settings",
+     "link_to": "Tally Connection Settings",
+     "link_type": "DocType",
+     "onboard": 1,
+     "type": "Link"
+    },
+    {
+     "description": "Map ERPNext doctypes to Tally objects",
+     "label": "Tally DocType Mapping",
+     "link_to": "Tally DocType Mapping",
+     "link_type": "DocType",
+     "onboard": 1,
+     "type": "Link"
+    },
+    {
+     "description": "Track ERPNext to Tally master name mapping",
+     "label": "Tally Master Identity",
+     "link_to": "Tally Master Identity",
+     "link_type": "DocType",
+     "type": "Link"
+    },
+    {
+     "description": "Pending and completed sync jobs",
+     "label": "Tally Sync Queue",
+     "link_to": "Tally Sync Queue",
+     "link_type": "DocType",
+     "type": "Link"
+    },
+    {
+     "description": "Audit log of all sync attempts",
+     "label": "Tally Sync Log",
+     "link_to": "Tally Sync Log",
+     "link_type": "DocType",
+     "type": "Link"
+    },
+    {
+     "description": "Bulk export jobs for period sync",
+     "label": "Tally Export Job",
+     "link_to": "Tally Export Job",
+     "link_type": "DocType",
+     "type": "Link"
+    },
+    {
+     "description": "Reconcile ERPNext vs Tally records",
+     "label": "Tally Reconciliation Job",
+     "link_to": "Tally Reconciliation Job",
+     "link_type": "DocType",
+     "type": "Link"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "tally_bridge"
+version = "2.0.0"
+description = "ERPNext to TallyPrime integration bridge — queue-based live sync and period export"
+requires-python = ">=3.14,<3.15"
+dependencies = ["requests>=2.32.0"]
+
+[tool.bench.frappe-dependencies]
+frappe  = ">=16.0.0,<17.0.0"
+erpnext = ">=16.0.0,<17.0.0"
